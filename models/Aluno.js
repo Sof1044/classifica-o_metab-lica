@@ -16,7 +16,7 @@ class Aluno{
         // feminino
         // TMB = 447.593 + 9.247 * peso + 3.098 * altura + 4.330 * idade
         }else if(this.genero === 'F'){
-            return 447.593 + (9.247 * peso) + (3.098 * altura) - (4.330 * this.idade)
+            return 447.593 + (9.247 * this.peso) + (3.098 * this.altura) - (4.330 * this.idade)
         }
     }
     verClasseMet(){
